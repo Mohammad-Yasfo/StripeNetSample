@@ -2,8 +2,16 @@
 
 namespace ReLifeAssessment.Infrastructure.Payment.Stripe;
 
+/// <summary>
+/// Handles Stripe exceptions by providing user-friendly error messages based on Stripe error codes.
+/// </summary>
 public class StripeExceptionHandler
 {
+    /// <summary>
+    /// Retrieves a user-friendly error message based on the Stripe exception.
+    /// </summary>
+    /// <param name="ex">The Stripe exception instance.</param>
+    /// <returns>A user-friendly error message string.</returns>
     public static string GetMessage(StripeException ex)
     {
         if (ex == null || ex.StripeError == null || ex.StripeError.Code == null)
@@ -103,6 +111,11 @@ public class StripeExceptionHandler
         };
     }
 
+    /// <summary>
+    /// Retrieves a user-friendly decline message based on the Stripe decline code.
+    /// </summary>
+    /// <param name="declineCode">The Stripe decline code.</param>
+    /// <returns>A user-friendly decline message string.</returns>
     public static string GetDeclineMessage(string declineCode)
     {
         if (declineCode == null)
