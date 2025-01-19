@@ -42,9 +42,9 @@ builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
     {
-        Title = "ReLifeAssessment Payment APIs",
+        Title = "StripeNetSample Payment APIs",
         Version = "v1",
-        Description = "API documentation for ReLifeAssessment Payment services."
+        Description = "API documentation for StripeNetSample Payment services."
     });
 
     var xmlFile = $"{System.Reflection.Assembly.GetExecutingAssembly().GetName().Name}.xml";
