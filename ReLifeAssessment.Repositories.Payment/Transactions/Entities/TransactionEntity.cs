@@ -1,6 +1,6 @@
-﻿using ReLifeAssessment.Application.Payment.Enums;
+﻿using StripeNetSample.Application.Payment.Enums;
 
-namespace ReLifeAssessment.Repositories.Payment.Transaction.Entities
+namespace StripeNetSample.Repositories.Payment.Transaction.Entities
 {
     public class TransactionEntity
     {

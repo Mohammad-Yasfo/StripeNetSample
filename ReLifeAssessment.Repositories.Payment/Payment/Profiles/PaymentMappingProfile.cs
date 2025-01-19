@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
 using Newtonsoft.Json;
-using ReLifeAssessment.Application.Payment.Models;
-using ReLifeAssessment.Repositories.Payment.Entities;
+using StripeNetSample.Application.Payment.Models;
+using StripeNetSample.Repositories.Payment.Entities;
 
-namespace ReLifeAssessment.Repositories.Payment.Profiles;
+namespace StripeNetSample.Repositories.Payment.Profiles;
 
 public class PaymentMappingProfile : Profile
 {

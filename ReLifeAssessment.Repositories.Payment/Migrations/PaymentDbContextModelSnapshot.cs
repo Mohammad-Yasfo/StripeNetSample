@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using ReLifeAssessment.Repositories.Payment;
+using StripeNetSample.Repositories.Payment;
 
 #nullable disable
 
-namespace ReLifeAssessment.Repositories.Payment.Migrations
+namespace StripeNetSample.Repositories.Payment.Migrations
 {
     [DbContext(typeof(PaymentDbContext))]
     partial class PaymentDbContextModelSnapshot : ModelSnapshot

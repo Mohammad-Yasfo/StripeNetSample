@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using ReLifeAssessment.Repositories.Payment.Entities;
-using ReLifeAssessment.Repositories.Payment.Transaction.Entities;
+using StripeNetSample.Repositories.Payment.Entities;
+using StripeNetSample.Repositories.Payment.Transaction.Entities;
 
-namespace ReLifeAssessment.Repositories.Payment
+namespace StripeNetSample.Repositories.Payment
 {
     public class PaymentDbContext : DbContext
     {

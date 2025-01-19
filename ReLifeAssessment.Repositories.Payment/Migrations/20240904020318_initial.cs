@@ -1,9 +1,8 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore.Migrations;
+﻿using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace ReLifeAssessment.Repositories.Payment.Migrations
+namespace StripeNetSample.Repositories.Payment.Migrations
 {
     /// <inheritdoc />
     public partial class initial : Migration

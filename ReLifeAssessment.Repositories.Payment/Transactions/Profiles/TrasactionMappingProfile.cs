@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
-using ReLifeAssessment.Repositories.Payment.Transaction.Entities;
+using StripeNetSample.Repositories.Payment.Transaction.Entities;
 
-namespace ReLifeAssessment.Repositories.Payment.Transaction.Profiles
+namespace StripeNetSample.Repositories.Payment.Transaction.Profiles
 {
     public class TrasactionMappingProfile : Profile
     {

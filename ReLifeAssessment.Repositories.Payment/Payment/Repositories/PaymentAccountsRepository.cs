@@ -1,11 +1,11 @@
 ﻿using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
-using ReLifeAssessment.Application.Payment.Contracts;
-using ReLifeAssessment.Application.Payment.Models;
-using ReLifeAssessment.Repositories.Payment.Entities;
+using StripeNetSample.Application.Payment.Contracts;
+using StripeNetSample.Application.Payment.Models;
+using StripeNetSample.Repositories.Payment.Entities;
 
-namespace ReLifeAssessment.Repositories.Payment.Repositories;
+namespace StripeNetSample.Repositories.Payment.Repositories;
 
 /// <summary>
 /// Repository class for managing payment accounts and company payments.

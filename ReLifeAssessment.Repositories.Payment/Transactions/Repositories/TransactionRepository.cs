@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
 using Microsoft.EntityFrameworkCore;
-using ReLifeAssessment.Application.Payment.Contracts;
-using ReLifeAssessment.Repositories.Payment.Transaction.Entities;
+using StripeNetSample.Application.Payment.Contracts;
+using StripeNetSample.Repositories.Payment.Transaction.Entities;
 
-namespace ReLifeAssessment.Repositories.Payment.Transaction.Repositories
+namespace StripeNetSample.Repositories.Payment.Transaction.Repositories
 {
     /// <summary>
     /// Repository class for managing transactions.

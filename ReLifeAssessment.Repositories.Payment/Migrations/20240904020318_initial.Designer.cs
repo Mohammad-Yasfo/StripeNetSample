@@ -5,11 +5,11 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using ReLifeAssessment.Repositories.Payment;
+using StripeNetSample.Repositories.Payment;
 
 #nullable disable
 
-namespace ReLifeAssessment.Repositories.Payment.Migrations
+namespace StripeNetSample.Repositories.Payment.Migrations
 {
     [DbContext(typeof(PaymentDbContext))]
     [Migration("20240904020318_initial")]

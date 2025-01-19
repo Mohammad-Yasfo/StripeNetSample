@@ -1,4 +1,4 @@
-﻿namespace ReLifeAssessment.Repositories.Payment.Entities;
+﻿namespace StripeNetSample.Repositories.Payment.Entities;
 
 public class CompanyPaymentAccountEntity
 {
