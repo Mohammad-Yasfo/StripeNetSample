@@ -17,7 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StripeNetSample.Infrastruct
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StripeNetSample.Application.Payment", "StripeNetSample.Application.Payment\StripeNetSample.Application.Payment.csproj", "{61F498D5-8523-4E59-AA94-DF56FDE7073E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StripeNetSample.Repositories.Payment", "ReLifeAssessment.Repositories.Payment\StripeNetSample.Repositories.Payment.csproj", "{38A3E835-5CCA-4FC3-BF5E-4726B459CDA2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StripeNetSample.Repositories.Payment", "StripeNetSample.Repositories.Payment\StripeNetSample.Repositories.Payment.csproj", "{38A3E835-5CCA-4FC3-BF5E-4726B459CDA2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
