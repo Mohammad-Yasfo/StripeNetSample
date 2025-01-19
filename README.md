@@ -11,8 +11,6 @@ This project provides an integration for handling payments using the Stripe API.
   - [StripeExceptionHandler](#stripeexceptionhandler)
 - [Error Handling](#error-handling)
 - [Testing](#testing)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
