@@ -16,7 +16,7 @@ This project provides an integration for handling payments using the Stripe API.
 
 ## Overview
 
-This project is a part of the `ReLifeAssessment` infrastructure, specifically designed to manage payments via Stripe. It includes:
+This project is a part of the `StripeNetSample` infrastructure, specifically designed to manage payments via Stripe. It includes:
 
 - **Error handling** for Stripe-related exceptions.
 - **Utility classes** to parse and format error messages for end users.
@@ -31,7 +31,7 @@ To use this project, follow these steps:
 1. Clone the repository:
 
     ```bash
-    git clone [https://github.com/yourusername/yourproject.git](https://github.com/Mohammad-Yasfo/ReLifeAssessment_Stripe.git)
+    git clone [https://github.com/Mohammad-Yasfo/StripeNetSample.git](https://github.com/Mohammad-Yasfo/StripeNetSample.git)
     ```
 
 2. Install the required dependencies:
